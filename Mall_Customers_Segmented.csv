@@ -1,0 +1,201 @@
+Age,Annual Income (k$),Spending Score (1-100),Genre_Male,Cluster,Persona
+19,15,39,True,3,Young Impulsive Spenders
+21,15,81,True,3,Young Impulsive Spenders
+20,16,6,False,3,Young Impulsive Spenders
+23,16,77,False,3,Young Impulsive Spenders
+31,17,40,False,3,Young Impulsive Spenders
+22,17,76,False,3,Young Impulsive Spenders
+35,18,6,False,2,Mid-Tier Regulars
+23,18,94,False,3,Young Impulsive Spenders
+64,19,3,True,4,Mature Minimalists
+30,19,72,False,3,Young Impulsive Spenders
+67,19,14,True,4,Mature Minimalists
+35,19,99,False,3,Young Impulsive Spenders
+58,20,15,False,2,Mid-Tier Regulars
+24,20,77,False,3,Young Impulsive Spenders
+37,20,13,True,4,Mature Minimalists
+22,20,79,True,3,Young Impulsive Spenders
+35,21,35,False,2,Mid-Tier Regulars
+20,21,66,True,3,Young Impulsive Spenders
+52,23,29,True,4,Mature Minimalists
+35,23,98,False,3,Young Impulsive Spenders
+35,24,35,True,3,Young Impulsive Spenders
+25,24,73,True,3,Young Impulsive Spenders
+46,25,5,False,2,Mid-Tier Regulars
+31,25,73,True,3,Young Impulsive Spenders
+54,28,14,False,2,Mid-Tier Regulars
+29,28,82,True,3,Young Impulsive Spenders
+45,28,32,False,2,Mid-Tier Regulars
+35,28,61,True,3,Young Impulsive Spenders
+40,29,31,False,2,Mid-Tier Regulars
+23,29,87,False,3,Young Impulsive Spenders
+60,30,4,True,4,Mature Minimalists
+21,30,73,False,3,Young Impulsive Spenders
+53,33,4,True,4,Mature Minimalists
+18,33,92,True,3,Young Impulsive Spenders
+49,33,14,False,2,Mid-Tier Regulars
+21,33,81,False,3,Young Impulsive Spenders
+42,34,17,False,2,Mid-Tier Regulars
+30,34,73,False,3,Young Impulsive Spenders
+36,37,26,False,2,Mid-Tier Regulars
+20,37,75,False,3,Young Impulsive Spenders
+65,38,35,False,2,Mid-Tier Regulars
+24,38,92,True,3,Young Impulsive Spenders
+48,39,36,True,4,Mature Minimalists
+31,39,61,False,3,Young Impulsive Spenders
+49,39,28,False,2,Mid-Tier Regulars
+24,39,65,False,3,Young Impulsive Spenders
+50,40,55,False,2,Mid-Tier Regulars
+27,40,47,False,3,Young Impulsive Spenders
+29,40,42,False,3,Young Impulsive Spenders
+31,40,42,False,3,Young Impulsive Spenders
+49,42,52,False,2,Mid-Tier Regulars
+33,42,60,True,3,Young Impulsive Spenders
+31,43,54,False,3,Young Impulsive Spenders
+59,43,60,True,4,Mature Minimalists
+50,43,45,False,2,Mid-Tier Regulars
+47,43,41,True,4,Mature Minimalists
+51,44,50,False,2,Mid-Tier Regulars
+69,44,46,True,4,Mature Minimalists
+27,46,51,False,3,Young Impulsive Spenders
+53,46,46,True,4,Mature Minimalists
+70,46,56,True,4,Mature Minimalists
+19,46,55,True,3,Young Impulsive Spenders
+67,47,52,False,2,Mid-Tier Regulars
+54,47,59,False,2,Mid-Tier Regulars
+63,48,51,True,4,Mature Minimalists
+18,48,59,True,3,Young Impulsive Spenders
+43,48,50,False,2,Mid-Tier Regulars
+68,48,48,False,2,Mid-Tier Regulars
+19,48,59,True,3,Young Impulsive Spenders
+32,48,47,False,3,Young Impulsive Spenders
+70,49,55,True,4,Mature Minimalists
+47,49,42,False,2,Mid-Tier Regulars
+60,50,49,False,2,Mid-Tier Regulars
+60,50,56,False,2,Mid-Tier Regulars
+59,54,47,True,4,Mature Minimalists
+26,54,54,True,3,Young Impulsive Spenders
+45,54,53,False,2,Mid-Tier Regulars
+40,54,48,True,4,Mature Minimalists
+23,54,52,False,3,Young Impulsive Spenders
+49,54,42,False,2,Mid-Tier Regulars
+57,54,51,True,4,Mature Minimalists
+38,54,55,True,4,Mature Minimalists
+67,54,41,True,4,Mature Minimalists
+46,54,44,False,2,Mid-Tier Regulars
+21,54,57,False,3,Young Impulsive Spenders
+48,54,46,True,4,Mature Minimalists
+55,57,58,False,2,Mid-Tier Regulars
+22,57,55,False,3,Young Impulsive Spenders
+34,58,60,False,3,Young Impulsive Spenders
+50,58,46,False,2,Mid-Tier Regulars
+68,59,55,False,2,Mid-Tier Regulars
+18,59,41,True,3,Young Impulsive Spenders
+48,60,49,True,4,Mature Minimalists
+40,60,40,False,2,Mid-Tier Regulars
+32,60,42,False,2,Mid-Tier Regulars
+24,60,52,True,3,Young Impulsive Spenders
+47,60,47,False,2,Mid-Tier Regulars
+27,60,50,False,3,Young Impulsive Spenders
+48,61,42,True,4,Mature Minimalists
+20,61,49,True,3,Young Impulsive Spenders
+23,62,41,False,3,Young Impulsive Spenders
+49,62,48,False,2,Mid-Tier Regulars
+67,62,59,True,4,Mature Minimalists
+26,62,55,True,3,Young Impulsive Spenders
+49,62,56,True,4,Mature Minimalists
+21,62,42,False,3,Young Impulsive Spenders
+66,63,50,False,2,Mid-Tier Regulars
+54,63,46,True,4,Mature Minimalists
+68,63,43,True,4,Mature Minimalists
+66,63,48,True,4,Mature Minimalists
+65,63,52,True,4,Mature Minimalists
+19,63,54,False,3,Young Impulsive Spenders
+38,64,42,False,2,Mid-Tier Regulars
+19,64,46,True,3,Young Impulsive Spenders
+18,65,48,False,3,Young Impulsive Spenders
+19,65,50,False,3,Young Impulsive Spenders
+63,65,43,False,2,Mid-Tier Regulars
+49,65,59,False,2,Mid-Tier Regulars
+51,67,43,False,2,Mid-Tier Regulars
+50,67,57,False,2,Mid-Tier Regulars
+27,67,56,True,3,Young Impulsive Spenders
+38,67,40,False,2,Mid-Tier Regulars
+40,69,58,False,2,Mid-Tier Regulars
+39,69,91,True,0,High-Value Trendsetters
+23,70,29,False,1,Affluent Conservatives
+31,70,77,False,0,High-Value Trendsetters
+43,71,35,True,4,Mature Minimalists
+40,71,95,True,0,High-Value Trendsetters
+59,71,11,True,4,Mature Minimalists
+38,71,75,True,0,High-Value Trendsetters
+47,71,9,True,4,Mature Minimalists
+39,71,75,True,0,High-Value Trendsetters
+25,72,34,False,1,Affluent Conservatives
+31,72,71,False,0,High-Value Trendsetters
+20,73,5,True,1,Affluent Conservatives
+29,73,88,False,0,High-Value Trendsetters
+44,73,7,False,1,Affluent Conservatives
+32,73,73,True,0,High-Value Trendsetters
+19,74,10,True,1,Affluent Conservatives
+35,74,72,False,0,High-Value Trendsetters
+57,75,5,False,2,Mid-Tier Regulars
+32,75,93,True,0,High-Value Trendsetters
+28,76,40,False,1,Affluent Conservatives
+32,76,87,False,0,High-Value Trendsetters
+25,77,12,True,1,Affluent Conservatives
+28,77,97,True,0,High-Value Trendsetters
+48,77,36,True,4,Mature Minimalists
+32,77,74,False,0,High-Value Trendsetters
+34,78,22,False,1,Affluent Conservatives
+34,78,90,True,0,High-Value Trendsetters
+43,78,17,True,1,Affluent Conservatives
+39,78,88,True,0,High-Value Trendsetters
+44,78,20,False,1,Affluent Conservatives
+38,78,76,False,0,High-Value Trendsetters
+47,78,16,False,1,Affluent Conservatives
+27,78,89,False,0,High-Value Trendsetters
+37,78,1,True,1,Affluent Conservatives
+30,78,78,False,0,High-Value Trendsetters
+34,78,1,True,1,Affluent Conservatives
+30,78,73,False,0,High-Value Trendsetters
+56,79,35,False,2,Mid-Tier Regulars
+29,79,83,False,0,High-Value Trendsetters
+19,81,5,True,1,Affluent Conservatives
+31,81,93,False,0,High-Value Trendsetters
+50,85,26,True,4,Mature Minimalists
+36,85,75,False,0,High-Value Trendsetters
+42,86,20,True,1,Affluent Conservatives
+33,86,95,False,0,High-Value Trendsetters
+36,87,27,False,1,Affluent Conservatives
+32,87,63,True,0,High-Value Trendsetters
+40,87,13,True,1,Affluent Conservatives
+28,87,75,True,0,High-Value Trendsetters
+36,87,10,True,1,Affluent Conservatives
+36,87,92,True,0,High-Value Trendsetters
+52,88,13,False,1,Affluent Conservatives
+30,88,86,False,0,High-Value Trendsetters
+58,88,15,True,4,Mature Minimalists
+27,88,69,True,0,High-Value Trendsetters
+59,93,14,True,4,Mature Minimalists
+35,93,90,True,0,High-Value Trendsetters
+37,97,32,False,1,Affluent Conservatives
+32,97,86,False,0,High-Value Trendsetters
+46,98,15,True,1,Affluent Conservatives
+29,98,88,False,0,High-Value Trendsetters
+41,99,39,False,1,Affluent Conservatives
+30,99,97,True,0,High-Value Trendsetters
+54,101,24,False,1,Affluent Conservatives
+28,101,68,True,0,High-Value Trendsetters
+41,103,17,False,1,Affluent Conservatives
+36,103,85,False,0,High-Value Trendsetters
+34,103,23,False,1,Affluent Conservatives
+32,103,69,False,0,High-Value Trendsetters
+33,113,8,True,1,Affluent Conservatives
+38,113,91,False,0,High-Value Trendsetters
+47,120,16,False,1,Affluent Conservatives
+35,120,79,False,0,High-Value Trendsetters
+45,126,28,False,1,Affluent Conservatives
+32,126,74,True,0,High-Value Trendsetters
+32,137,18,True,1,Affluent Conservatives
+30,137,83,True,0,High-Value Trendsetters
