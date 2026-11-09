@@ -1,30 +1,31 @@
-# 🛍️ Mall Customer Segmentation — Unsupervised Learning
+# 🛍️ Mall Customer Segmentation
 
-This is my Project 3 submission for the DecodeLabs Data Science Industrial Training (Batch 2026). Unlike the previous projects, this one had no "right answers" to learn from — the data came with zero labels. The goal was to let the math discover hidden customer groups on its own, then translate those groups into real business personas a marketing team could actually use.
+A small unsupervised learning project. The dataset had no labels, so I let K-Means find the customer groups on its own, then tried to make sense of them as real customer types.
 
-## 🧠 What I did
+## 🤔 Why I built this
 
-**1. Cleaned & encoded the data**
-- Dropped the useless `CustomerID` column
-- One-Hot Encoded the `Genre` column
+I wanted to see what happens when you give an algorithm customer data and ask it to find patterns without telling it what to look for. The interesting part wasn't the code. It was figuring out what the clusters actually meant.
 
-**2. Scaled all features using StandardScaler**
-- Without scaling, Annual Income ($15k–$137k) would completely overpower Spending Score (1–100) in the distance calculations K-Means relies on
-- Scaling gives every feature equal mathematical "voting power"
+## ⚙️ What I did
 
-**3. Found the optimal number of clusters**
-- Used the Elbow Method (WCSS) and Silhouette Score across K=2 to K=10
-- Elbow curve bent at K=5, confirming 5 as the optimal number of segments
+**1. Cleaned the data**
+- Dropped `CustomerID` since it's just an identifier
+- One-hot encoded `Genre`
+
+**2. Scaled the features**
+- Annual Income ranges from about $15k to $137k, while Spending Score only goes from 1 to 100. Without scaling, income would dominate the distance calculations, so I used `StandardScaler` to put everything on equal footing.
+
+**3. Picked the number of clusters**
+- Tried K from 2 to 10 using the elbow method (WCSS) and silhouette score
+- The elbow bends around K=5, so I went with that
 
 **4. Trained K-Means with K=5**
-- Algorithm assigned every customer to their nearest cluster centroid
-- Ran with 10 different random initialisations to avoid getting stuck in a local minimum
+- Used 10 random initializations to avoid bad local minima
 
-**5. Interpreted clusters as business personas**
-- Analysed average Age, Income, and Spending Score per cluster
-- Translated raw math into actionable customer personas
+**5. Turned clusters into personas**
+- Looked at average age, income, and spending score for each group and gave them names
 
-## 👥 The 5 Customer Personas
+## 👥 The 5 groups
 
 | Cluster | Persona | Age | Income | Spending Score | Size |
 |---|---|---|---|---|---|
@@ -34,25 +35,25 @@ This is my Project 3 submission for the DecodeLabs Data Science Industrial Train
 | 3 | Young Impulsive Spenders | 24.9 | $39.7k | 61.2 | 54 |
 | 4 | Mature Minimalists | 55.7 | $53.7k | 36.8 | 35 |
 
-**Business actions:**
-- **High-Value Trendsetters** → VIP loyalty programs, early product access, premium experiences
-- **Affluent Conservatives** → targeted re-engagement campaigns, value-focused messaging to unlock their spending potential
-- **Mid-Tier Regulars** → bundle deals, seasonal promotions to nudge spending upward
-- **Young Impulsive Spenders** → flash sales, influencer campaigns, buy-now-pay-later options
-- **Mature Minimalists** → utility-focused messaging, clear value propositions, reliability guarantees
+**What I'd suggest a marketing team do with these:**
+- **Trendsetters:** VIP programs, early access, premium experiences
+- **Conservatives:** re-engagement campaigns and value-focused messaging to bring out their spending
+- **Regulars:** bundle deals and seasonal promotions to nudge spending up
+- **Young Impulsive Spenders:** flash sales, influencer campaigns, buy-now-pay-later options
+- **Minimalists:** clear value propositions and reliability-focused messaging
 
-## 📊 What I learned
+## 💭 What I took away
 
-This project was the most interesting of the three because there was no "correct" answer to aim for — the algorithm found patterns I couldn't have spotted just by looking at a spreadsheet. The most important lesson was that math alone isn't enough: K=10 was technically "optimal" by the silhouette score, but 10 groups of 13-26 people each is useless for a marketing team. Knowing when to override the math with human judgment is a real data science skill.
+The silhouette score actually preferred K=10, but 10 groups of 13–26 people each isn't something anyone could act on. Going with K=5 was a judgment call, and I think that's the part that matters most. The math gives you options, and you still have to decide which one is useful.
 
 ## 🧰 Tech stack
 Python · Pandas · NumPy · Scikit-Learn · Matplotlib
 
-## 📁 Dataset source
-[Mall Customer Segmentation Data — Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+## 📁 Dataset
+[Mall Customer Segmentation Data on Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 
 ## 📂 Files
-- `project3.py` — full clustering pipeline
-- `Mall_Customers_Segmented.csv` — final dataset with cluster and persona labels
-- `cluster_diagnostics.png` — elbow method and silhouette score charts
-- `customer_segments.png` — scatter plot of customer segments
+- `project3.py`: the full clustering pipeline
+- `Mall_Customers_Segmented.csv`: the dataset with cluster and persona labels
+- `cluster_diagnostics.png`: elbow and silhouette charts
+- `customer_segments.png`: scatter plot of the segments
